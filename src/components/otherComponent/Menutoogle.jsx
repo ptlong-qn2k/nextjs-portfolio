@@ -1,8 +1,8 @@
 'use client';
 import React, { useState, useEffect, useRef } from 'react';
-import { translations } from '@/locales/LanguageContent';
+import { translations } from '@/locales/languagecontent';
 import { IoMenu } from 'react-icons/io5';
-import { useLanguage } from '@/context/Languagecontext';
+import { useLanguage } from '@/context/languagecontext';
 import { useRouter } from 'next/navigation';
 const Menutoogle = () => {
     const [isOpen, setIsOpen] = useState(false);

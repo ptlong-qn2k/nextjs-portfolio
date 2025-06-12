@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import '../styles/globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { LanguageProvider } from '@/context/Languagecontext';
+import { LanguageProvider } from '@/context/languagecontext';
 import { ThemeContext } from '@/context/ThemeContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 

@@ -4,8 +4,8 @@ import { FaFacebook } from 'react-icons/fa';
 import { FaGithubSquare } from 'react-icons/fa';
 // import { useNavigate, useLocation } from 'react-router-dom';
 import { useRouter, usePathname } from 'next/navigation';
-import { useLanguage } from '@/context/Languagecontext';
-import { translations } from '@/locales/LanguageContent';
+import { useLanguage } from '@/context/languagecontext';
+import { translations } from '@/locales/languagecontent';
 const Footer = () => {
     const { language } = useLanguage();
     const pathname = usePathname();

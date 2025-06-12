@@ -6,8 +6,8 @@ import { FaGithub } from 'react-icons/fa';
 import { MdOutlineEmail } from 'react-icons/md';
 import { IoCallOutline } from 'react-icons/io5';
 import { FaMapMarkerAlt } from 'react-icons/fa';
-import { translations } from '@/Locales/LanguageContent';
-import { useLanguage } from '@/context/Languagecontext';
+import { translations } from '@/locales/languagecontent';
+import { useLanguage } from '@/context/languagecontext';
 import { Schema } from '@/context/Schema';
 import { yupResolver } from '@hookform/resolvers/yup';
 

@@ -1,7 +1,7 @@
 // import Layout from '../Layout/Layout';
 'use client';
-import { useLanguage } from '@/context/Languagecontext';
-import { translations } from '@/Locales/LanguageContent';
+import { useLanguage } from '@/context/languagecontext';
+import { translations } from '@/locales/languagecontent';
 
 const About = () => {
     const { language } = useLanguage();

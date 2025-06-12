@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
+        "baseUrl": ".", // Gốc là thư mục dự án
         "paths": {
-            "@/*": ["src/*"]
+            "@/*": ["src/*"] // @ đại diện cho thư mục src
         }
-    }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+    "exclude": ["node_modules"]
 }

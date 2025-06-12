@@ -1,6 +1,6 @@
 'use client';
-import { translations } from '@/Locales/LanguageContent';
-import { useLanguage } from '@/context/Languagecontext';
+import { translations } from '@/locales/languagecontent';
+import { useLanguage } from '@/context/languagecontext';
 import { FaLink } from 'react-icons/fa6';
 import { FaGithub } from 'react-icons/fa';
 

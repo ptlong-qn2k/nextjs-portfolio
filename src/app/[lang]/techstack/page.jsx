@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
-import { techstackIcon } from '@/Locales/LanguageContent';
+import { techstackIcon } from '@/locales/languagecontent';
 import { CircularProgress, Typography, Box, colors } from '@mui/material';
-import { translations } from '@/Locales/LanguageContent';
-import { useLanguage } from '@/context/Languagecontext';
+import { translations } from '@/locales/languagecontent';
+import { useLanguage } from '@/context/languagecontext';
 
 const CircularSkill = ({ skill, value }) => {
     return (

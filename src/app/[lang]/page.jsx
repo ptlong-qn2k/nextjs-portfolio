@@ -2,8 +2,8 @@
 import React from 'react';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { useLanguage } from '@/context/Languagecontext';
-import { translations } from '@/Locales/LanguageContent';
+import { useLanguage } from '@/context/languagecontext';
+import { translations } from '@/locales/languagecontent';
 import { MdCloudDownload } from 'react-icons/md';
 import { useRouter } from 'next/navigation';
 
